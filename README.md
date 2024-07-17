@@ -33,28 +33,28 @@ R/ El verbo GET es un método HTTP utilizado para solicitar y obtener datos de u
 ### ¿Cuándo se utiliza un verbo GET?
 R/ Se utiliza para recuperar datos o información de un servidor, como al cargar una página web o obtener detalles de un producto.
 ### ¿En qué se diferencia un verbo GET de los otros verbos HTTP como POST, PUT y DELETE?
-R/ 
+R/ GET solo solicita datos y no modifica el estado del recurso. POST envía datos para crear un recurso. PUT actualiza recursos. DELETE elimina recursos.
 ## En lo que respecta al verbo PUT responde:
 ### ¿Qué es un verbo PUT y cuál es su propósito?
-R/ 
+R/ El verbo PUT es un método HTTP utilizado para actualizar o reemplazar un recurso existente en el servidor.
 ### ¿Cuándo se utiliza un verbo PUT?
-R/ 
+R/ Se utiliza cuando se necesita actualizar por completo un recurso existente, como al modificar los datos de un usuario.
 ### ¿En qué se diferencia un verbo PUT de los otros verbos HTTP como POST, GET y DELETE?
-R/ 
+R/ PUT reemplaza completamente un recurso existente. POST crea nuevos recursos. GET solicita datos. DELETE elimina recursos.
 ## En lo que respecta al verbo DELETE responde:
 ### ¿Qué es un verbo DELETE y cuál es su propósito?
-R/ 
+R/ El verbo DELETE es un método HTTP utilizado para eliminar un recurso existente en el servidor.
 ### ¿Cuándo se utiliza un verbo DELETE?
-R/ 
+R/ Se utiliza cuando se necesita eliminar un recurso específico, como al borrar un usuario o un producto.
 ### ¿En qué se diferencia un verbo DELETE de los otros verbos HTTP como POST, GET y PUT?
-R/ 
+R/ DELETE elimina recursos. POST crea nuevos recursos. GET solicita datos. PUT actualiza o reemplaza recursos.
 ### ¿Qué es un status code y cuáles son los más comunes?
-R/ 
+R/ Son codigos de respuesta que indican los resultados de una solicitud.
 ### ¿Cuales son los status code mas comunes para el verbo POST?
-R/ 
+R/ 201 (Created), 400 (Bad Request), 401 (Unauthorized), 500 (Internal Server Error).
 ### ¿Cuales son los status code mas comunes para el verbo GET?
-R/ 
+R/ 200 (OK), 400 (Bad Request), 401 (Unauthorized), 404 (Not Found).
 ### ¿Cuales son los status code mas comunes para el verbo PUT?
-R/ 
+R/ 200 (OK), 204 (No Content), 400 (Bad Request), 401 (Unauthorized), 404 (Not Found).
 ### ¿Cuales son los status code mas comunes para el verbo DELETE?
-R/ 
+R/ 200 (OK), 204 (No Content), 400 (Bad Request), 401 (Unauthorized), 404 (Not Found).
